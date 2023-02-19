@@ -4,11 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ac8454d2-b64f-4abf-9f54-35ed7a892375" name="Changes" comment="commit1" />
+    <list default="true" id="ac8454d2-b64f-4abf-9f54-35ed7a892375" name="Changes" comment="commit1">
+      <change beforePath="$PROJECT_DIR$/.idea/runConfigurations/Docker_Image.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/runConfigurations/Docker_Image.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DockerExecCommands">
+    <ExecCommand>
+      <option name="command" value="myDB" />
+    </ExecCommand>
+    <ExecCommand>
+      <option name="command" value="MySQL -uroot -password" />
+    </ExecCommand>
+    <ExecCommand>
+      <option name="command" value="MYSQL -uroot -password" />
+    </ExecCommand>
+    <ExecCommand>
+      <option name="command" value="mysql -uroot -ppassword" />
+    </ExecCommand>
   </component>
   <component name="Git.Settings">
     <option name="PUSH_TAGS">
@@ -45,7 +62,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Shared Work/workflows2",
+    "last_opened_file_path": "C:/Shared Work/App/.idea/runConfigurations",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -58,11 +75,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Docker.MySQL Config">
     <configuration default="true" type="docker-deploy" factoryName="docker-image" temporary="true">
       <deployment type="docker-image" />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Docker.MySQL Config" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -77,7 +99,7 @@
       <workItem from="1676628054739" duration="628000" />
       <workItem from="1676747872440" duration="196000" />
       <workItem from="1676748987368" duration="2351000" />
-      <workItem from="1676751446720" duration="5136000" />
+      <workItem from="1676751446720" duration="10492000" />
     </task>
     <task id="LOCAL-00001" summary="commit1">
       <created>1676749585590</created>
@@ -86,7 +108,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676749585590</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="commit1">
+      <created>1676761487851</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676761487851</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

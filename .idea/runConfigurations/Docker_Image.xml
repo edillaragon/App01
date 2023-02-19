@@ -7,10 +7,6 @@
         <option name="envVars">
           <list>
             <DockerEnvVarImpl>
-              <option name="name" value="mango_ROOT_PASSWORD" />
-              <option name="value" value="password" />
-            </DockerEnvVarImpl>
-            <DockerEnvVarImpl>
               <option name="name" value="mango_DATABASE" />
               <option name="value" value="myDB" />
             </DockerEnvVarImpl>
